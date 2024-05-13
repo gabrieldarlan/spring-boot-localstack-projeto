@@ -1,26 +1,25 @@
-2024-04-14T17:51:04.415  WARN --- [  MainThread] localstack.deprecations    : DEFAULT_REGION is deprecated (since 0.12.7) and will be removed in upcoming releases of LocalStack! LocalStack now has full multi-region support. Please remove this environment variable.
-2024-04-14T17:51:07.441  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
-2024-04-14T17:51:07.441  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
-2024-04-14T17:51:07.445  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
-2024-04-14T17:51:07.445  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
-2024-04-14T17:51:07.674  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 1206.31ms
-2024-04-14T19:00:36.926  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
-2024-04-14T19:00:37.037  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sts.GetCallerIdentity => 200
-2024-04-14T19:01:14.885  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
-2024-04-14T19:01:14.888  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sts.GetCallerIdentity => 200
-2024-04-16T00:04:50.938  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
-2024-04-16T00:04:51.054  INFO --- [   asgi_gw_0] localstack.services.infra  : Starting mock Kinesis service on http port 4566 ...
-2024-04-16T00:04:51.349  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : [io-compute-blocker-2] INFO  2024-04-16 00:04:51,349 k.m.KinesisMockService contextId=f23e405b-fb84-11ee-b989-37de84737af9, cacheConfig={"awsAccountId":"000000000000","awsRegion":"us-east-1","createStreamDuration":{"length":500,"unit":"MILLISECONDS"},"deleteStreamDuration":{"length":500,"unit":"MILLISECONDS"},"deregisterStreamConsumerDuration":{"length":500,"unit":"MILLISECONDS"},"initializeStreams":null,"mergeShardsDuration":{"length":500,"unit":"MILLISECONDS"},"persistConfig":{"fileName":"kinesis-data.json","interval":{"length":5,"unit":"SECONDS"},"loadIfExists":true,"path":"/var/lib/localstack/tmp/state/kinesis","shouldPersist":true},"registerStreamConsumerDuration":{"length":500,"unit":"MILLISECONDS"},"shardLimit":100,"splitShardDuration":{"length":500,"unit":"MILLISECONDS"},"startStreamEncryptionDuration":{"length":500,"unit":"MILLISECONDS"},"stopStreamEncryptionDuration":{"length":500,"unit":"MILLISECONDS"},"updateShardCountDuration":{"length":500,"unit":"MILLISECONDS"}} - Logging Cache Config
-2024-04-16T00:04:51.524  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : [io-compute-blocker-2] INFO  2024-04-16 00:04:51,523 k.m.KinesisMockService  - Starting Kinesis TLS Mock Service on port 4567
-2024-04-16T00:04:51.524  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : [io-compute-blocker-2] INFO  2024-04-16 00:04:51,523 k.m.KinesisMockService  - Starting Kinesis Plain Mock Service on port 43275
-2024-04-16T00:04:51.524  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : [io-compute-6] INFO  2024-04-16 00:04:51,524 k.m.KinesisMockService contextId=f258f44c-fb84-11ee-b989-37de84737af9 - Starting persist data loop
-2024-04-16T00:04:51.847  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "require" took 908.41ms
-2024-04-16T00:04:51.863  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS kinesis.ListStreams => 200
-2024-04-16T00:07:10.572  INFO --- [   asgi_gw_1] localstack.utils.bootstrap : Execution of "_load_service_plugin" took 555.68ms
-2024-04-16T00:07:10.575  INFO --- [   asgi_gw_1] localstack.utils.bootstrap : Execution of "require" took 558.92ms
-2024-04-16T00:07:10.621  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.PutParameter => 200
-2024-04-16T00:07:20.558  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.PutParameter => 400 (ParameterAlreadyExists)
-2024-04-19T22:39:57.773  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : [WARNING] Your CPU is probably starving. Consider increasing the granularity
-2024-04-19T22:39:57.774  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : of your delays or adding more cedes. This may also be a sign that you are
-2024-04-19T22:39:57.774  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : unintentionally running blocking I/O operations (such as File or InetAddress)
-2024-04-19T22:39:57.775  INFO --- [ncthread1515] l.s.k.kinesis_mock_server  : without the blocking combinator.
+2024-05-12T21:42:40.939  WARN --- [  MainThread] localstack.deprecations    : DEFAULT_REGION is deprecated (since 0.12.7) and will be removed in upcoming releases of LocalStack! LocalStack now has full multi-region support. Please remove this environment variable.
+2024-05-12T21:42:41.754  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2024-05-12T21:42:41.754  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2024-05-12T21:42:41.755  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2024-05-12T21:42:41.755  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2024-05-12T21:42:41.857  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 602.24ms
+2024-05-12T21:46:15.918  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T21:46:16.844  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2024-05-12T21:46:16.862  WARN --- [   asgi_gw_1] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T21:46:16.863  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2024-05-12T21:46:16.918  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T21:46:16.924  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2024-05-12T21:46:16.982  WARN --- [   asgi_gw_1] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T21:46:16.988  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2024-05-12T21:57:03.425  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "_load_service_plugin" took 734.17ms
+2024-05-12T21:57:03.431  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "require" took 740.62ms
+2024-05-12T21:57:03.657  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.PutParameter => 200
+2024-05-12T22:21:28.061  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T22:21:28.067  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2024-05-12T22:21:28.110  WARN --- [   asgi_gw_2] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T22:21:28.113  INFO --- [   asgi_gw_2] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2024-05-12T22:21:28.162  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T22:21:28.164  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2024-05-12T22:21:28.220  WARN --- [   asgi_gw_2] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
+2024-05-12T22:21:28.223  INFO --- [   asgi_gw_2] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
